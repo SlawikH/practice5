@@ -1,0 +1,138 @@
+body, p, h1, h2, ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background-color: #ead9b3;
+}
+
+.wrapper {
+    width: 890px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+
+/* .menu {
+    background-color: #F8AA03;
+    
+}
+.menu ul{padding-left: 20px;}
+.menu li{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 30px;
+    font-size: 19px;
+}
+.menu a{
+     
+}
+.menu a:link, .menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover, .menu a.active{
+    text-decoration: underline;
+} */
+
+
+.menu, .footer {
+    background: #F8AA03;
+}
+
+.menu {
+    margin: 0;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a:link , .menu a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    width: 250px;
+    float: right;
+    padding: 10px;
+    text-align: justify;  
+}
+
+
+
+.right h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.right p {
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.content {
+    margin-right: 250px;
+    min-height:600px;
+    padding: 10px 20px 20px 20px;
+    text-align: justify;
+}
+
+.content h1 {
+    font-size: 21px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content p {
+    margin: 10px 0;
+    
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.price {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.price td, .price th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.price th {
+    background-color: #F8AA03;
+}

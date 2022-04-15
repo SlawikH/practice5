@@ -1,0 +1,84 @@
+body, p, h1, h2{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+    width: 870px;
+    margin: 0px auto;
+}
+
+.header {
+    min-height: 200px;
+    position: relative;
+    background: url('background.jpg') no-repeat;
+    color: white;
+}
+
+.sitename {
+    position: absolute;
+    top: 40px;
+    left: 270px;    
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.slogan {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.left {
+    width: 200px;
+    float: left;
+    padding: 10px;
+    
+}
+
+/* .left>div{
+    margin: 20px 0px 0px 10px;
+} */
+
+.left h2 {
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.left p {
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+.content {
+    margin-left: 200px;
+    min-height: 600px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.content h1 {
+    font-size: 21px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.footer {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+}
